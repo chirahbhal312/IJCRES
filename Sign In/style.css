@@ -17,7 +17,7 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #ff8c6b;
+  background-color: #f9e3df;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@ main {
   position: relative;
   width: 100%;
   max-width: 1020px;
-  height: 640px;
+  height:800px;
   background-color: #fff;
   border-radius: 3.3rem;
   box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
@@ -79,7 +79,7 @@ form.sign-up-form {
 }
 
 .logo img {
-  width: 27px;
+  width: 250px;
   margin-right: 0.3rem;
 }
 
@@ -221,9 +221,9 @@ main.sign-up-mode .carousel {
 }
 
 .images-wrapper {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr; */
 }
 
 .image {

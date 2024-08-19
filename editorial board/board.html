@@ -4,219 +4,215 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <title>ijcr</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.17.6/dist/xlsx.full.min.js"></script>
 </head>
 
 <body>
-  <section class="container journey__container" id="journey">
-    <h2 class="section__header"><br></i><b><u>Explore Our Team</u></b></h2>
-    <div class="journey__grid">
-      <div class="journey__image">
-        <img src="assets/journey.webp" alt="feature" />
-      </div>
-      <div class="journey__content">
-        <h4>Dr. Monika Yadav</h4>
-        <p>
-          Welcome to IJCR! Dive into groundbreaking research that connects disciplines and sparks innovation.
-        </p>
-        <div class="journey__content__grid">
-          <div class="journey__card">
-        </div>
-        <button class="btn">Know More.</button>
-      </div>
+  <link rel="stylesheet" href="./style.css" />
+   
+
+  <header>
+    <img class="navbar_img" src="./IJCR Logo.png" alt="">
+
+    <div class="navbar-links">
+      <a href="../index.html">Home</a>
+      <a href="#">Editorial Team</a>
+      <a href="#">Articles & Issues</a>
+      <a href="#">Publish</a>
+      <a href="#">Submit Your Article</a>
+      <a href="#">Guide for Authors</a>
+      <a href="../Sign In/index.html">Account</a>
     </div>
-  </section>
-  <section class="container journey__container" id="journey">
-    <div class="journey__grid">
-      <div class="journey__image">
-        <img src="assets/journey1.webp" alt="feature" />
-      </div>
-      <div class="journey__content">
-        <h4>Dr. Anshika Prakash</h4>
-        <p>
-          Explore the frontier of knowledge with IJCR. Share your research and be part of our journey towards academic brilliance.
-        </p>
-        <div class="journey__content__grid">
-          <div class="journey__card">
+  </header>
+
+
+    <h2 class="section__header"><br></i><b>EDITORIAL BOARD</b></h2>
+    <div class="editorial-container">
+      <div class="editorial-card">
+        <img src="assets/journey.webp" alt="Member Photo">
+        <div class="editorial-content">
+            <h2>Dr. Monika Yadav</h2>
+            <p class="editorial-title">Editor-in-Chief</p>
+            <p class="editorial-bio">Welcome to IJCR! Dive into groundbreaking research that connects disciplines and sparks innovation.</p>
+            <div class="editorial-contact">
+                <a href="www.linkedin.com/in/dr-monika-yadav-68966b23b/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:jane.doe@example.com">
+                    <i class="fas fa-envelope"></i> jane.doe@example.com
+                </a>
+                <br>
+            </div>
         </div>
-        <button class="btn">Know More.</button>
-      </div>
     </div>
-  </section>
-  <section class="container journey__container" id="journey">
-    <div class="journey__grid">
-      <div class="journey__image">
-        <img src="assets/journey.jpg" alt="feature" />
-      </div>
-      <div class="journey__content">
-        <h4>Dr. Ajhar Hussain</h4>
-        <p>
-          Join us at IJCR, where rigorous research meets transformative insights. Your discoveries can shape the future.
-        </p>
-        <div class="journey__content__grid">
-          <div class="journey__card">
+    <div class="editorial-card">
+        <img src="assets/journey1.webp" alt="Member Photo">
+        <div class="editorial-content">
+            <h2>Dr. Anshika Yadav</h2>
+            <p class="editorial-title">Editor-in-Chief</p>
+            <p class="editorial-bio">Explore the frontier of knowledge with IJCR. Share your research and be part of our journey towards academic brilliance.</p>
+            <div class="editorial-contact">
+                <a href="https://www.linkedin.com/in/dr-anshika-prakash-aggarwal-24b6325b/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:jane.doe@example.com">
+                    <i class="fas fa-envelope"></i> jane.doe@example.com
+                </a>
+                <br>
+            </div>
         </div>
-        <button class="btn">Know More.</button>
-      </div>
     </div>
-  </section>
-  <section class="container journey__container" id="journey">
-    <div class="journey__grid">
-      <div class="journey__image">
-        <img src="assets/journey.JPEG" alt="feature" />
-      </div>
-      <div class="journey__content">
-        <h4>Mr. Nitish Kumar Minz</h4>
-        <p>
-          Welcome to IJCR! Submit your pioneering work and explore research that ignites innovation and drives progress.
-        </p>
-        <div class="journey__content__grid">
-          <div class="journey__card">
+<div class="editorial-card">
+        <img src="assets/journey.webp" alt="Member Photo">
+        <div class="editorial-content">
+            <h2>Jane Doe</h2>
+            <p class="editorial-title">Editor-in-Chief</p>
+            <p class="editorial-bio">Jane is an experienced editor with over 10 years in the industry, known for her attention to detail and passion for storytelling.</p>
+            <div class="editorial-contact">
+                <a href="https://www.linkedin.com/in/janedoe" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:jane.doe@example.com">
+                    <i class="fas fa-envelope"></i> jane.doe@example.com
+                </a>
+                <br>
+            </div>
         </div>
-        <button class="btn">Know More.</button>
-      </div>
     </div>
-  </section>
-  <h1 class="blue"><b><u>Editorial Board</u></b></h1><br>
-    <table class="container">
-      <thead>
-        <tr>
-          <th><h1>Sr. No.</h1><h1 class="yellow"></h1></h1></th>
-          <th><h1>Name</h1></th>
-          <th><h1>Designation </h1></th>
-          <th><h1>Linkedin id </h1></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td> Dr. Abdullah Bin Junaid</td>
-          <td>Faculty, IMT Business School, Dubai</td>
-          <td>Dr. Abdullah Bin Junaid (PhD) | LinkedIn</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Dr. Aftab Alam</td>
-          <td>Professor and Controller of Examination,
-            Abeda Inamdar Senior College
-            </td>
-          <td>Dr.Aftab Alam | LinkedIn</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Dr. Amit Mittal </td>
-          <td>Pro Vice-Chancellor (Research Programs),
-            Chitkara University </td>
-          <td>Amit Mittal | LinkedIn
-          </td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Dr. Aparna Sinha
-          </td>
-          <td>Doctor of Philosophy - PhD, Geological and
-            Earth Sciences/Geosciences, Aligarh Muslim
-            University</td>
-          <td>aparna sinha | LinkedIn
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Dr. Firoz Ahmad</td>
-          <td>Research Fellow, Deakin University
-            Melbourne </td>
-          <td>Firoz Ahmad | LinkedIn</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Dr. Hari Mohan Rai</td>
-          <td>Assistant Professor, Gachon University,
-            South Korea
-            </td>
-          <td>Dr. Hari Mohan Rai | LinkedIn</td>
-        </tr>
-        <tr>
-          <td>7</td>
-          <td>Dr. Kaveri Sharma
-          </td>
-          <td>Professor & Head of the Department, School
-            of Law, Manav Rachna University</td>
-          <td>Prof.(Dr.) Kaveri Sharma | LinkedIn
-          </td>
-        </tr>
-        <tr>
-          <td>8</td>
-          <td>Dr Parul Tyagi</td>
-          <td>Senior Lecturer, Department of Foreign
-            languages, Faculty of Economics, RUDN
-            University, Moscow, Russia</td>
-          <td>Dr. Parul Tyagi | LinkedIn</td>
-        </tr>
-        <tr>
-          <td>9</td>
-          <td>Dr. Rashmi Singel</td>
-          <td>Associate Professor at Manav Rachna
-            International Institute of Research and
-            Studies, Faridabad</td>
-          <td>Dr. Rashmi Singel | LinkedIn</td>
-        </tr>
-        <tr>
-          <td>10</td>
-          <td>Dr. Richa Nangia </td>
-          <td>Associate Professor, School of Business,
-            Sushant University
-            </td>
-          <td>Dr. Richa Nangia | LinkedIn</td>
-        </tr>
-        <tr>
-          <td>11</td>
-          <td>Dr. Sachita Yadav </td>
-          <td>Finance Academician, National Institute of
-            Financial Management - PGDM (Financial
-            Markets)
-            </td>
-          <td>Dr. Sachita Yadav | LinkedIn
-          </td>
-        </tr>
-        <tr>
-          <td>12</td>
-          <td>Dr. Shashkant Yadav</td>
-          <td>Assistant Professor, Department of Earth &
-            Planetary Sciences, Prof. Rajendra Singh
-            (Rajju Bhaiya) Institute of Physical Sciences
-            for Study and Research.
-            VBS Purvanchal University
-            </td>
-          <td>(1) Shashi Kant Yadav (researchgate.net)
-          </td>
-        </tr>
-        <tr>
-          <td>13</td>
-          <td>Komal Yadav</td>
-          <td>3486</td>
-          <td>komal yadav | LinkedIn
-          </td>
-        </tr>
-        <tr>
-          <td>14</td>
-          <td>Md. Sazal Miah</td>
-          <td>Program Coordinator, Forensic Department,
-            K.R. Mangalam University
-          </td>
-          <td>Md Sazal Miah | LinkedIn
-          </td>
-        </tr>
-        <tr>
-          <td>15</td>
-          <td> Mohammad Kamran Ikram</td>
-          <td>Swinburne University of Technology,
-            Australia </td>
-          <td>Mohammad Kamran Ikram | LinkedIn</td>
-        </tr>
-      </tbody>
-    </table>
+<div class="editorial-card">
+        <img src="assets/journey.webp" alt="Member Photo">
+        <div class="editorial-content">
+            <h2>Jane Doe</h2>
+            <p class="editorial-title">Editor-in-Chief</p>
+            <p class="editorial-bio">Jane is an experienced editor with over 10 years in the industry, known for her attention to detail and passion for storytelling.</p>
+            <div class="editorial-contact">
+                <a href="https://www.linkedin.com/in/janedoe" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:jane.doe@example.com">
+                    <i class="fas fa-envelope"></i> jane.doe@example.com
+                </a>
+                <br>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+  <h2 id="editorialteam">EDITORIAL TEAM</h2>
+
+  <div class="table-container">
+    <div class="table-header">
+        <div class="table-cell-header">Sr. No.</div>
+        <div class="table-cell-header">Name</div>
+        <div class="table-cell-header">Designation</div>
+        <div class="table-cell-header">LinkedIn ID</div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">1</div>
+        <div class="table-cell">Dr. Abdullah Bin Junaid</div>
+        <div class="table-cell">Faculty, IMT Business School, Dubai</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/dr-abdullah-bin-junaid-phd-00315998/" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">2</div>
+        <div class="table-cell">Dr. Aftab Alam</div>
+        <div class="table-cell">Professor and Controller of Examination, Abeda Inamdar Senior College</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/draalamaftab/?originalSubdomain=in" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">3</div>
+        <div class="table-cell">Dr. Amit Mittal</div>
+        <div class="table-cell">Pro Vice-Chancellor (Research Programs), Chitkara University</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/dramitmittal" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">4</div>
+        <div class="table-cell">Dr. Aparna Sinha</div>
+        <div class="table-cell">Doctor of Philosophy - PhD, Geological and Earth Sciences/Geosciences, Aligarh Muslim University</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/aparna-sinha-1b90a9190/?originalSubdomain=uk" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">5</div>
+        <div class="table-cell">Dr. Firoz Ahmad</div>
+        <div class="table-cell">Research Fellow, Deakin University Melbourne</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/firoz-ahmad-5a7781a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">6</div>
+        <div class="table-cell">Dr. Hari Mohan Rai</div>
+        <div class="table-cell">Assistant Professor, Gachon University, South Korea</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/harimohanrai" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">7</div>
+        <div class="table-cell">Dr. Kaveri Sharma</div>
+        <div class="table-cell">Professor & Head of the Department, School of Law, Manav Rachna University</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/prof-dr-kaveri-sharma-91285562/" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">8</div>
+        <div class="table-cell">Dr. Parul Tyagi</div>
+        <div class="table-cell">Senior Lecturer, Department of Foreign Languages, Faculty of Economics, RUDN University, Moscow, Russia</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/dr-parul-tyagi-5764a046/?originalSubdomain=in" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">9</div>
+        <div class="table-cell">Dr. Rashmi Singel</div>
+        <div class="table-cell">Associate Professor at Manav Rachna International Institute of Research and Studies, Faridabad</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/dr-rashmi-singel-b1b37223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">10</div>
+        <div class="table-cell">Dr. Richa Nangia</div>
+        <div class="table-cell">Associate Professor, School of Business, Sushant University</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/dr-richa-nangia-82968524/?originalSubdomain=in" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">11</div>
+        <div class="table-cell">Dr. Sachita Yadav</div>
+        <div class="table-cell">Finance Academician, National Institute of Financial Management - PGDM (Financial Markets)</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/dr-sachita-yadav-12b20a21/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">12</div>
+        <div class="table-cell">Dr. Sahab Singh</div>
+        <div class="table-cell">Professor, Department of Management Studies, Dronacharya Group of Institutions, Greater Noida</div>
+        <div class="table-cell"><a href="https://gn.dronacharya.info/MBADept/facultyprofile.html" class="table-cell link" target="_blank">Dronacharya.info</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">13</div>
+        <div class="table-cell">Dr. Shashkant Yadav</div>
+        <div class="table-cell">Assistant Professor, Department of Earth & Planetary Sciences, Prof. Rajendra Singh (Rajju Bhaiya) Institute of Physical Sciences for Study and Research, VBS Purvanchal University</div>
+        <div class="table-cell"><a href="https://www.researchgate.net/profile/Shashi-Kant-Yadav-2" class="table-cell link" target="_blank">ResearchGate</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">14</div>
+        <div class="table-cell">Komal Yadav</div>
+        <div class="table-cell">Assistant Professor, National Forensic Science University, Ministry of Home Affairs, Govt of India</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/komal-yadav-500b9890/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">15</div>
+        <div class="table-cell">Md. Sazal Miah</div>
+        <div class="table-cell">Federation University Australia</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/md-sazal-miah-412362b9/?original_referer=https%3A%2F%2Fwww%2Ebing%2Ecom%2F&originalSubdomain=au" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">16</div>
+        <div class="table-cell">Mohammad Kamran Ikram</div>
+        <div class="table-cell">Swinburne University of Technology, Australia</div>
+        <div class="table-cell"><a href="https://www.linkedin.com/in/md-sazal-miah-412362b9/?original_referer=https%3A%2F%2Fwww%2Ebing%2Ecom%2F&originalSubdomain=au" class="table-cell link" target="_blank">LinkedIn</a></div>
+    </div>
+</div>
+
+</div>
+  
+
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="main.js"></script>
 </body>
