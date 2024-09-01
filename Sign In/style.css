@@ -13,6 +13,55 @@ input {
   font-family: "Poppins", sans-serif;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  /* margin: 0 auto; */
+}
+
+.nav-logo img {
+  height: 50px;
+}
+
+.header-title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  margin-left: 20px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #27284E; /* Initial text color */
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+  background: linear-gradient(to right, #D53636 50%, #27284E 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.5s ease-in-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links ul li a:hover {
+  background-position: 0 0; /* Move the gradient to create the wipe effect */
+}
+
 main {
   width: 100%;
   min-height: 100vh;
@@ -28,7 +77,7 @@ main {
   position: relative;
   width: 100%;
   max-width: 1020px;
-  height: 640px;
+  height: 660px;
   background-color: #fff;
   border-radius: 3.3rem;
   box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
@@ -79,8 +128,8 @@ form.sign-up-form {
 }
 
 .logo img {
-  width: 27px;
-  margin-right: 0.3rem;
+  width: 200px;
+  /* margin-right: 0.3rem; */
 }
 
 .logo h4 {
@@ -207,9 +256,9 @@ main.sign-up-mode .carousel {
 
 .carousel {
   position: absolute;
-  height: 100%;
-  width: 55%;
-  left: 45%;
+  height: 600px;
+  /* width: 55%; */
+  left: 50%;
   top: 0;
   background-color: #ffe0d2;
   border-radius: 2rem;
@@ -227,7 +276,7 @@ main.sign-up-mode .carousel {
 }
 
 .image {
-  width: 100%;
+  height: 600px;
   grid-column: 1/2;
   grid-row: 1/2;
   opacity: 0;
