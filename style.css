@@ -62,11 +62,11 @@ body {
 }
 
 .hero-section span {
-    font-size: 45px; /* Adjust the font size as needed */
-    font-weight:bolder; /* Adjust the weight if you're using Poppins */
-    margin: 0; /* Remove default margins */
+    font-size: 45px;
+    font-weight:bolder;
+    margin: 0;
     padding: 20px 0;
-    color: #27284E; /* Add padding if you want space around the text */
+    color: #27284E;
 }
 
 .body-text{

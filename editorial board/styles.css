@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
 body{
   font-family: "Poppins", sans-serif;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   background-color: #ecf2ef;
+  color: #1F2739;
 }
 
 a{
@@ -9,9 +13,12 @@ a{
   color: #fff;
 }
 
-h1{
+.heading{
   margin: 100px 35%;
   font-size: 45px;
+  font-weight:bolder;
+  padding: 20px 0;
+  color: #27284E;
 }
 
 .header {
@@ -19,11 +26,9 @@ h1{
   align-items: center;
   justify-content: space-between;
   padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 15px;
+  padding-right: 55px;
+  padding-top: 8px;
   padding-bottom: 15px;
-
-  /* margin: 0 auto; */
 }
 
 .logo img {
@@ -46,21 +51,18 @@ h1{
 }
 
 .nav-links ul li a {
-text-decoration: none;
-color: #27284E; /* Initial text color */
-font-size: 15px;
-font-weight: bold;
-margin-left: 15px;
-background: linear-gradient(to right, #D53636 50%, #27284E 50%);
-background-size: 200% 100%;
-background-position: 100% 0;
-transition: background-position 0.5s ease-in-out;
--webkit-background-clip: text; /* For WebKit browsers */
-background-clip: text; /* Standard property */
--webkit-text-fill-color: transparent; /* For WebKit browsers */
-text-fill-color: transparent; /* Standard property */
+  text-decoration: none;
+  color: #27284E; /* Initial text color */
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 15px;
+  background: linear-gradient(to right, #D53636 50%, #27284E 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.5s ease-in-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .nav-links ul li a:hover {
   background-position: 0 0; /* Move the gradient to create the wipe effect */
@@ -206,5 +208,63 @@ text-fill-color: transparent; /* Standard property */
 .container tbody tr {
   height: 80px;
 
+}
+
+footer{
+  display: flex;
+  height: 350px;
+  justify-content: space-between;
+  margin: 0 5% ;
+  margin-top: 100px;
+  border-bottom: #27284E solid 1px;
+
+
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 auto; */
+  font-weight: 600;
+  text-align: center;
+  width: 200px;
+}
+
+.email svg{
+  height: 100px;
+}
+
+
+.socialmedia h1{
+  padding-left: 5.5%;
+}
+
+.icons{
+  display: flex;
+  gap: 75px;
+  justify-content:center;
+  width: 400px;
+}
+
+.socialicons{
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  padding: 5px;
+  background-color: #D53636;
+}
+
+.phone{
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.phone svg{
+  height: 100px;
+}
+
+.copyright{
+  margin-left: 5%;
 }
 
